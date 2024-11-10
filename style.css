@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Creepster&family=Itim&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Rammetto+One&family=Rubik+Wet+Paint&display=swap');
+body {
+    background-color: black;
+    text-align: center;
+    padding-right: 100px;
+    padding-left: 85px;
+}
+
+header ul {
+    list-style: none;
+    color: whitesmoke;
+    display: flex;
+    column-gap: 20px;
+    font-size: 11px;
+    padding-top: 20px;
+    padding-right: 0px;
+}
+header ul :hover{
+    color: #bfc500;
+    cursor: pointer;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+    color: whitesmoke;
+    text-align: left;
+    /* padding-left: 85px; */
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-size: 16px;
+  
+}
+
+.hamza {
+padding-right: 100px;
+justify-content: space-between;
+    
+}
+
+.new-web {
+  padding-bottom: 15px;
+  /* justify-content: space-between; */
+}
+section h2 {
+   
+    text-align: start;
+    font-size: 30px;
+    /* padding-left: 85px; */
+    color: #bfc500;
+}
+section h3 {
+    color: whitesmoke;
+    text-align: start;
+    font-size: 20px;
+    /* padding-left: 85px;  */
+}
+section p {
+    color: whitesmoke;
+    text-align: left;
+    /* padding-left: 85px; */
+    font-family: sans-serif;
+}
+.container .wats{
+    color: gray;
+    padding-left: 0px;
+}
+section .bord {
+    font-size: 12px;
+    padding-right: 100px;
+}
+section .water {
+    justify-content: space-between;
+    display: flex;
+    padding-left: 0px;
+}
+.box {
+    padding-left: 0px;
+}
+.karachi {
+    background-color: #bfc500;
+    width: auto;
+    border-radius: 10px;
+    height: 100px;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 120px;
+    padding-right: 120px;
+    font-family: sans-serif;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.button {
+    color: #bfc500;
+    background-color: black;
+    height: 80px;
+    width: 200px;
+    border-radius: 10px;
+}
+.zero , p{
+    color: whitesmoke;
+    text-align: left;
+    /* padding-left: 85px; */
+    font-family: sans-serif;
+}
+.power{
+    color: #bfc500;
+}
+.blue {
+    font-size: 15px;
+}
+.data {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.put {
+    padding-right: 100px;
+}
+.sec3 .bio {
+   color: whitesmoke ;
+   font-family: sans-serif;
+}
+
+.sec3 {
+    display: block;
+    justify-content: space-between;
+}
+.red {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 60px;
+}
+.green {
+    display: flex;
+}
+.red p {
+    font-size: 12px;
+    padding-right: 30px;
+    color: gray;
+}
+.biology {
+    padding-left: 35px;
+}
+.intel {
+    color: whitesmoke;
+    font-family: sans-serif;
+
+}
+.para {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.sec4 {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 110px;
+    padding-top: 20px;
+}
+.car {
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+.pen {
+    color: #bfc500;
+    text-align: left;
+    font-size: 27px;
+    /* padding-left: 85px; */
+    display: block;
+    
+}
+.apple {
+    font-size: 14px;
+    padding-top: 27px;
+}
+.pak {
+    display: flex;
+    column-gap: 50px;
+}
+.last-picture {
+    background-color: #bfc500;
+    width: 200px;
+    height: 300px;
+    padding-right: 100px;
+}
+.main-pen {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen (min-width 407px)(max-width 1600px){
+    
+}
