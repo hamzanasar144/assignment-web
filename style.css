@@ -195,6 +195,12 @@ section .water {
 }
 
 
-@media screen (min-width 407px)(max-width 1600px){
-    
+.known {
+    color: blue;
+    background-color: aqua;
+    /* width: 40%; */
+    justify-content: space-between;
+    text-shadow: 20px grey;
+    border: 2px solid red;
+    border-radius: 20px;
 }
