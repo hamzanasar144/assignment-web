@@ -204,3 +204,33 @@ section .water {
     border: 2px solid red;
     border-radius: 20px;
 }
+@media screen and (max-width: 768px) {
+    body {
+        padding: 0 20px;
+        text-align: left;
+    }
+
+    header ul {
+        flex-direction: column;
+        font-size: 14px;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        font-size: 14px;
+    }
+
+    .karachi, .button {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .sec4, .data, .main-pen, .pak {
+        flex-direction: column;
+        padding: 10px 0;
+        align-items: center;
+    }
+}
