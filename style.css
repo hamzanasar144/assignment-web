@@ -150,11 +150,11 @@ section .water {
 }
 .red p {
     font-size: 12px;
-    padding-right: 30px;
+    padding-right: 0px;
     color: gray;
 }
 .biology {
-    padding-left: 35px;
+    padding-left: 0px;
 }
 .intel {
     color: whitesmoke;
@@ -212,33 +212,162 @@ section .water {
     border: 2px solid red;
     border-radius: 20px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px){
     body {
-        padding: 0 20px;
-        text-align: left;
+    background-color: black;
+    text-align: center;
+    padding-right: 0px;
+    padding-left: 0px;
     }
 
     header ul {
-        flex-direction: column;
-        font-size: 14px;
-        text-align: center;
-        padding-top: 10px;
+        list-style: none;
+    color: whitesmoke;
+    /* display: flex; */
+    column-gap: 10px;
+    font-size: 8px;
+    padding-top: 0px;
+    padding-right: 0px;
     }
 
     .container {
-        flex-direction: column;
-        align-items: center;
-        font-size: 14px;
+        color: whitesmoke;
+        text-align: left;
+        /* padding-left: 85px; */
+        display: flex;
+        justify-content: space-between;
+        font-family: sans-serif;
+        font-size: 8px;
     }
+    .hamza {
+        padding-right: 0px;
+        justify-content: space-between;
+            
+        } 
+.new-web {
+ padding-bottom: 0px;
+/* justify-content: space-between; */
+}
+section h2 {
+   
+         text-align: start;
+         font-size: 10px;
+         /* padding-left: 85px; */
+         color: #bfc500;
+} 
+section h3 {
+        color: whitesmoke;
+        text-align: start;
+        font-size: 9px;
+}
+section .bord {
+    font-size: 8px;
+    padding-right: 0px;
+}
 
-    .karachi, .button {
-        width: 100%;
-        padding: 20px;
-    }
+ 
+.karachi {
+    background-color: #bfc500;
+    width: auto;
+    border-radius: 10px;
+    height: 50px;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: sans-serif;
+    font-size: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.button {
+    color: #bfc500;
+    background-color: black;
+    height: 50px;
+    width: 100px;
+    border-radius: 8px;
+    font-weight: 300;
+    font-size: 8px;
+}
+.button:hover {
+    background-color: whitesmoke;
+    color: black;
+    font-weight: 400;
+    font-size: 8px;
+}
+.blue {
+    font-size: 8px;
+}
+.data {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0px;
+}
+.put {
+    padding-right: 0px;
+}
+.put {
+    padding-right: 0px;
+}
+.red {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.red p {
+    font-size: 9px;
+    padding-right: 0px;
+    color: gray;
+}
+.biology {
+    padding-left: 40px;
+    
+}
+.para {
+    font-family: sans-serif;
+    font-size: 8px;
+}
+.sec4 {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 110px;
+    padding-top: 20px;
+}
+.pen {
+    color: #bfc500;
+    text-align: left;
+    font-size: 9px;
+    /* padding-left: 85px; */
+    display: block;
+    
+}
+.apple {
+    font-size: 5px;
+    padding-top: 27px;
+}
+.pak {
+    display: flex;
+    column-gap: 8px;
+}
+.last-picture {
+    background-color: #bfc500;
+    width: 200px;
+    height: 300px;
+    padding-right: 100px;
+}
+.known {
+    color: blue;
+    background-color: aqua;
+    /* width: 40%; */
+    justify-content: space-between;
+    text-shadow: 4px 2px gray;
+    border: 2px solid red;
+    border-radius: 15px;
+}
 
-    .sec4, .data, .main-pen, .pak {
-        flex-direction: column;
-        padding: 10px 0;
-        align-items: center;
-    }
+
+
+
+
 }
