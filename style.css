@@ -19,10 +19,14 @@ header ul :hover{
     color: #bfc500;
     cursor: pointer;
 }
+.container-website{
+    width: 1200px;
+}
 header nav {
   display: flex;
   justify-content: space-between;
 }
+
 .container {
     color: whitesmoke;
     text-align: left;
@@ -31,7 +35,9 @@ header nav {
     justify-content: space-between;
     font-family: sans-serif;
     font-size: 16px;
-  
+} 
+.bye {
+   width: 200px;
 }
 
 .hamza {
@@ -42,7 +48,10 @@ justify-content: space-between;
 
 .new-web {
   padding-bottom: 15px;
-  /* justify-content: space-between; */
+ 
+}
+.server {
+    width: 170px;
 }
 section h2 {
    
@@ -94,6 +103,10 @@ section .water {
     justify-content: space-between;
 
     
+}
+.mystery {
+    width: 300px;
+    padding-right: 70px;
 }
 .button {
     color: #bfc500;
@@ -149,12 +162,14 @@ section .water {
     display: flex;
 }
 .red p {
-    font-size: 12px;
+    font-size: 9px;
     padding-right: 0px;
     color: gray;
 }
 .biology {
     padding-left: 0px;
+    width: 100px;
+    height: 120px ;
 }
 .intel {
     color: whitesmoke;
@@ -212,20 +227,105 @@ section .water {
     border: 2px solid red;
     border-radius: 20px;
 }
-@media screen and (max-width: 400px){
+.my-web {
+    width: 280px;
+    padding-left: 0px;
+    padding-right: px;
+}
+.toilet {
+    width: 162px;
+}
+@media screen and (min-width: 300px)and (max-width:1100px){
     body {
     background-color: black;
     text-align: center;
-    padding-right: 0px;
-    padding-left: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
     }
+    .biology {
+        height: 100px;
+        width: 30;
+    }
+    section .water {
+        /* justify-content: space-between; */
+        display: flex;
+        padding-right: 85px;
+    }
+    .new-web {
+        padding-bottom: 15px;
+       
+      }
+      .main-pen {
+        padding-top: 40px;
+      }
+    .bye {
+        width: 80px;
+     }
+     .ul-li {
+        font-size: 7px;
+        padding-right: 150px;
+     }
+     .server {
+        width: 50px;
+        display: flex;
+        padding-right: 0px;
+    }
+    .mystery {
+        width: 100px;
+        padding-left: 0px;
+        padding-right: 30px;
+        padding-top: 20px;
 
+    }
+    
+     
+    .lets {
+        width: 700px;
+        
+    }
+    .my-web {
+        width: 80px;
+        padding-left: 10px;
+        padding-top: 4px;
+       
+    }
+    .navi {
+        font-size: 10px;
+        padding-right: 100px;
+    }
+    .container-website{
+        width: 350px;
+        padding-right: 1100px
+    }
+    .box {
+        font-size: 10px;
+        padding-right: 100px;
+    }
+    .bord{
+        font-size: 4px;
+        padding-left: 0px;
+    }
+    
+    .toilet {
+        width: 72px;
+        padding-top: 10px;
+      
+    }
+    .pak {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    .apple {
+        font-size: 16px;
+        padding-top: 0px;
+    }
+    
     header ul {
         list-style: none;
     color: whitesmoke;
     /* display: flex; */
     column-gap: 10px;
-    font-size: 8px;
+    font-size: 10px;
     padding-top: 0px;
     padding-right: 0px;
     }
@@ -251,34 +351,39 @@ section .water {
 section h2 {
    
          text-align: start;
-         font-size: 10px;
+         font-size: 12px;
          /* padding-left: 85px; */
          color: #bfc500;
 } 
 section h3 {
         color: whitesmoke;
         text-align: start;
-        font-size: 9px;
+        font-size: 11px;
 }
 section .bord {
-    font-size: 8px;
+    font-size: 11px;
     padding-right: 0px;
 }
 
  
 .karachi {
     background-color: #bfc500;
-    width: auto;
+    width: 300px;
     border-radius: 10px;
-    height: 50px;
+    height: 75PX;
     text-align: left;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-left: 0px;
-    padding-right: 0px;
+    padding-right: 10px;
     font-family: sans-serif;
-    font-size: 8px;
+    font-size: 11px;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+}
+.karachi h1 {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-top: 0px;
 }
 .button {
     color: #bfc500;
@@ -287,16 +392,16 @@ section .bord {
     width: 100px;
     border-radius: 8px;
     font-weight: 300;
-    font-size: 8px;
+    font-size: 11px;
 }
 .button:hover {
     background-color: whitesmoke;
     color: black;
     font-weight: 400;
-    font-size: 8px;
+    font-size: 11px;
 }
 .blue {
-    font-size: 8px;
+    font-size: 11px;
 }
 .data {
     display: flex;
@@ -316,17 +421,26 @@ section .bord {
     padding-right: 0px;
 }
 .red p {
-    font-size: 9px;
-    padding-right: 0px;
+    font-size: 11px;
+    padding-right: 10px;
     color: gray;
 }
+.car {
+    font-size: 17px;
+}
+.car2 {
+    font-size: 11px;
+}
 .biology {
-    padding-left: 40px;
+    padding-right: 60px;
+    width: 20px;
+    height: 30px;
     
 }
+
 .para {
     font-family: sans-serif;
-    font-size: 8px;
+    font-size: 11px;
 }
 .sec4 {
     display: flex;
@@ -337,33 +451,41 @@ section .bord {
 .pen {
     color: #bfc500;
     text-align: left;
-    font-size: 9px;
+    font-size: 11px;
     /* padding-left: 85px; */
     display: block;
     
 }
 .apple {
-    font-size: 5px;
-    padding-top: 27px;
+    font-size: 11px;
+    padding-top: 10px;
 }
 .pak {
     display: flex;
-    column-gap: 8px;
+    padding-top: 0px;
+}
+.pak h6 {
+    padding-top: 1px;
 }
 .last-picture {
     background-color: #bfc500;
-    width: 200px;
-    height: 300px;
-    padding-right: 100px;
+    width: 10px;
+    height: 100px;
+    /* padding-right: 100px; */
+    /* padding-left: 40px; */
+    padding-top: 0px;
+    padding-bottom: 0px;
+
 }
 .known {
     color: blue;
     background-color: aqua;
     /* width: 40%; */
     justify-content: space-between;
-    text-shadow: 4px 2px gray;
+    text-shadow: 20px grey;
     border: 2px solid red;
-    border-radius: 15px;
+    border-radius: 20px;
+    font-size: 17px;
 }
 
 
@@ -371,3 +493,7 @@ section .bord {
 
 
 }
+
+
+
+
