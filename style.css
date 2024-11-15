@@ -20,7 +20,7 @@ header ul :hover{
     cursor: pointer;
 }
 .container-website{
-    width: 1200px;
+    width: 100%;
 }
 header nav {
   display: flex;
@@ -41,7 +41,7 @@ header nav {
 }
 
 .hamza {
-padding-right: 100px;
+padding-right: 0px;
 justify-content: space-between;
     
 }
@@ -78,7 +78,7 @@ section p {
 }
 section .bord {
     font-size: 12px;
-    padding-right: 100px;
+    padding-right: 00px;
 }
 section .water {
     justify-content: space-between;
@@ -90,12 +90,14 @@ section .water {
 }
 .karachi {
     background-color: #bfc500;
-    width: auto;
+    /* width: auto; */
     border-radius: 10px;
-    height: 100px;
-    text-align: left;
+    /* height: 100px; */
+    /* text-align: left; */
     padding-top: 30px;
-    padding-left: 120px;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-left: 10px;
     padding-right: 120px;
     font-family: sans-serif;
     font-size: 13px;
@@ -106,7 +108,7 @@ section .water {
 }
 .mystery {
     width: 300px;
-    padding-right: 70px;
+    padding-right: 0px;
 }
 .button {
     color: #bfc500;
@@ -183,7 +185,7 @@ section .water {
 .sec4 {
     display: flex;
     justify-content: space-between;
-    padding-right: 110px;
+    padding-right: 0px;
     padding-top: 20px;
 }
 .car {
@@ -249,7 +251,7 @@ section .water {
     section .water {
         /* justify-content: space-between; */
         display: flex;
-        padding-right: 85px;
+        padding-right: 0px;
     }
     .new-web {
         padding-bottom: 15px;
@@ -263,7 +265,7 @@ section .water {
      }
      .ul-li {
         font-size: 7px;
-        padding-right: 150px;
+        padding-right: 0px;
      }
      .server {
         width: 50px;
@@ -273,7 +275,7 @@ section .water {
     .mystery {
         width: 100px;
         padding-left: 0px;
-        padding-right: 30px;
+        padding-right: 0px;
         padding-top: 20px;
 
     }
@@ -285,7 +287,7 @@ section .water {
     }
     .my-web {
         width: 80px;
-        padding-left: 10px;
+        padding-left: 0px;
         padding-top: 4px;
        
     }
@@ -294,8 +296,8 @@ section .water {
         padding-right: 100px;
     }
     .container-website{
-        width: 350px;
-        padding-right: 1100px
+        width: 100%;
+        padding-right: 0px
     }
     .box {
         font-size: 10px;
@@ -326,8 +328,8 @@ section .water {
     /* display: flex; */
     column-gap: 10px;
     font-size: 10px;
-    padding-top: 0px;
-    padding-right: 0px;
+    /* padding-top: 0px;
+    padding-right: 0px; */
     }
 
     .container {
@@ -340,8 +342,9 @@ section .water {
         font-size: 8px;
     }
     .hamza {
-        padding-right: 0px;
+        padding-top: 30px;
         justify-content: space-between;
+        display: flex;
             
         } 
 .new-web {
@@ -368,13 +371,14 @@ section .bord {
  
 .karachi {
     background-color: #bfc500;
-    width: 300px;
+    /* width: 300px; */
     border-radius: 10px;
-    height: 75PX;
+    /* height: 75PX; */
     text-align: left;
-    padding-top: 10px;
+    padding-top: 11px;
+    padding-bottom: 11PX;
     padding-left: 0px;
-    padding-right: 10px;
+    padding-right: 0px;
     font-family: sans-serif;
     font-size: 11px;
     display: flex;
@@ -382,7 +386,7 @@ section .bord {
 }
 .karachi h1 {
     font-size: 14px;
-    padding-left: 10px;
+    padding-left: 0px;
     padding-top: 0px;
 }
 .button {
@@ -422,7 +426,7 @@ section .bord {
 }
 .red p {
     font-size: 11px;
-    padding-right: 10px;
+    padding-right: 0px;
     color: gray;
 }
 .car {
@@ -445,7 +449,7 @@ section .bord {
 .sec4 {
     display: flex;
     justify-content: space-between;
-    padding-right: 110px;
+    padding-right: 0px;
     padding-top: 20px;
 }
 .pen {
